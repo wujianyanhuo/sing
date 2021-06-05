@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css"/>
+</head>
+<body>
+    <div class="song">
+        <div class="dao">
+            <div class="dao1"><img src="images/image3.jpg" alt=""></div>
+            <div class="dao2">首页</div>
+            <div class="dao2">榜单</div>
+            <div class="dao2">歌手</div>
+            <div class="dao3">下载酷我客户端</div>
+            <div class="dao4"><div class="dao4_1"></div>美女秀</div>
+            <div class="dao4"><div class="dao4_1"></div>酷我耳机</div>
+            <div class="dao4"><div class="dao4_1"></div>VIP会员</div>
+            <div class="dao4"><div class="dao4_1"></div>i听</div>
+            <div class="dao5">更多服务</div>
+            <div class="dao6">登录</div>
+            <div class="dao7">^&nbsp;&nbsp;&nbsp;<img src="images/image4.png" alt=""></div>
+        </div>
+        <div class="main">
+            <div class="lyrics"></div>
+            <div class="progress">
+                <div class="record_border">
+                    <div class="record">
+                        <div class="center">
+                            <div class="cen_cen"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="strips">
+                    <div class="play"></div>
+                    <div class="pause"></div>
+                    <audio src="别看我只是一只羊 - 沈以诚.mp3"></audio>
+                    <!-- ---------进度条 整个大盒子，不是走的那个轨道 红边-------- -->
+                    <div id="prograssBar">
+                        <div id="wp_bufBar"><!-- 走的轨道  绿框框 -->
+                            <div class="prograssBar" id="wp_processBar"></div><!--已经走过的轨道 黄底 -->
+                            <div class="wp_processBtn"></div>
+                            <!-- 黄点点 -->
+                        </div>
+                    </div>
+                        <p class="time">00.00</p>
+                        <div class="voice"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comment">
+        <div id="com_over">
+            <div class="over_above">
+                <p id="p1">评论</p>
+                <p id="p2"></p>
+            </div>
+            <div id="over_bto">
+                <div id="head_img"></div>
+                <div id="com_input">
+                    <textarea name="input" id="input" cols="30" rows="10">分享你的音乐见解</textarea>
+                    <button id="btn">评论</button>
+                </div>
+            </div>
+        </div>
+        <div id="com_mid">
+            <div class="mid_p">精彩评论</div>
+            <div id="com_out">
+            </div>
+        </div>
+        <div class="page">
+            <div id="pro"> < </div>
+            <div id="page1">1</div>
+            <div id="page2">2</div>
+            <div id="page3">3</div>
+            <div id="page4">4</div>
+            <div id="page5">5</div>
+            <div id="pro"> > </div>
+        </div>
+    </div>
+</body>
+<script src="js.js"></script>
+</html>
